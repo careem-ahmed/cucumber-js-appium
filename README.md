@@ -1,29 +1,33 @@
 # cucumber-js-selenium
-使用selenium-js selenium appium 进行一个简单的测试
 
-准备工作：
+pre-requisite (have to be installed and added to path)
+	-	node
+	-	npm
+	-	chrome driver
+	-	appium
+	-	android studio 
 
+to install dependencies
 ```
-git clone https://github.com/imheloworld/cucumber-js-selenium.git
-cd cucumber-js-selenium
+
 npm install
 ```
 
-pc 端运行
+run on pc
 
 ```
 ./node_modules/.bin/grunt 
 ```
 
-android
+run on android
 
 ```
 ./node_modules/.bin/grunt  android
 ```
 
-ios
+run on ios
 
 ```
 ./node_modules/.bin/grunt  ios
 ```
-tips 请ios 安装carthage   brew install carthage
+
